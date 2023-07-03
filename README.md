@@ -42,7 +42,7 @@
 <th>Ответ</th>
 </tr>
 <tr>
-<td>/index.html, /ping</td>
+<td>/ping</td>
 <td>GET</td>
 <td>Проверка работы сервера</td>
 <td>
