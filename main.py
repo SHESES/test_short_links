@@ -39,8 +39,6 @@ def new_link():
     Создание короткого хэша для полной ссылки, запись в базу данных. Принимает полную ссылку.
     :return: Возвращает параметр error при возникновении ошибки, link - короткая ссылка создана
     """
-    print('Kva')
-    print(request.url_root)
     if request.method == 'POST':
         long_link = request.form.get('long_link', default=None, type=None)
     else:
@@ -67,7 +65,6 @@ def link(hash_link: str):
             False - ссылка отсутствует,
             соответствующая длинная ссылка
     """
-    print(hash_link)
     get_link = db.get_link(hash_link)
 
     if not get_link:
