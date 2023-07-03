@@ -1,0 +1,45 @@
+.alert{
+    position: absolute;
+    bottom: 0;
+}
+
+#copy_button{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    cursor: pointer;
+}
+
+
+.row-fluid{
+    position: relative;
+}
+
+.container input, .container .input-group{
+    margin-bottom: 1rem;
+}
+
+.container button{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.container{
+    box-sizing: border-box;
+    padding: 6px;
+    text-align: center;
+    width: 10cm;
+    max-width: 100%;
+    background-color: #f7f8fa;
+}
+
+.logo{
+    width: 4cm;
+    max-width: 90%;
+    /*max-height: 30vh;*/
+    margin-bottom: 7px;
+}
+
+body{
+    background-color: #f7f8fa;
+}
